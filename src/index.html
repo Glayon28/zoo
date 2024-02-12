@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoo</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <header class="Header">
+      <div class="limit">
+        <div class="Header_responsive">
+          <div class="Header_responsive_logo">
+            <a>LOGO</a>
+          </div>
+          <div class="Header_responsive_wrapper">
+            <div
+              class="Header_responsive_wrapper_burger"
+              onclick="toggleSidebar()"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <span class="line"></span>
+            <a href="tel:0800333133"
+              ><img src="icons/phoneGray.png" alt="phone"
+            /></a>
+            <span class="line"></span>
+            <a href="#"><img src="icons/userBlack.png" alt="user" /></a>
+            <span class="line"></span>
+            <a href="#"><img src="icons/bagGray.png" alt="bag" /></a>
+          </div>
+          <div class="Header_responsive_sidebar">
+            <div class="Header_responsive_sidebar_nav">
+              <a href="#">Доставка та оплата</a>
+              <a href="#">Програма лояльності</a>
+              <a href="#">Про нас</a>
+              <a href="#">Контакти</a>
+              <a href="#">Магазини</a>
+            </div>
+            <div class="Header_responsive_sidebar_items">
+              <div class="Header_responsive_sidebar_items_text">
+                <img src="icons/like.png" alt="like" />
+                <span>Улюблені товари</span>
+              </div>
+              <div class="Header_responsive_sidebar_items_text">
+                <img src="icons/scales.png" alt="scales" />
+                <span>Порівняти</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Header_bar">
+          <div class="Header_bar_nav">
+            <a href="#">Доставка та оплата</a>
+            <a href="#">Програма лояльності</a>
+            <a href="#">Про нас</a>
+            <a href="#">Контакти</a>
+            <a href="#">Магазини</a>
+          </div>
+          <div class="Header_bar_items">
+            <div class="Header_bar_items_text">
+              <a href="#">
+                <img src="icons/like.png" alt="like" />
+                <span>Улюблені товари</span>
+              </a>
+            </div>
+            <div class="Header_bar_items_text">
+              <a href="">
+                <img src="icons/scales.png" alt="scales" />
+                <span>Порівняти</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="Subheader">
+      <div class="limit">
+        <div class="Subheader_wrapper">
+          <a href="#" class="Subheader_wrapper_logo responsive">LOGO</a>
+          <div class="Subheader_wrapper_field">
+            <input type="text" placeholder="Я шукаю..." />
+            <img src="icons/search.png" alt="search icon" />
+          </div>
+          <a href="tel:0800333133" class="Subheader_wrapper_phone responsive">
+            <img src="icons/phone.png" alt="phone" />
+            <div class="Subheader_wrapper_phone_num">
+              <span>0800 333 133</span>
+              <span>Зателефонуйте нам</span>
+            </div>
+          </a>
+          <div class="Subheader_wrapper_user responsive">
+            <a href="#"><img src="icons/user.png" alt="user" /></a>
+
+            <span>|</span>
+            <a href="#"><img src="icons/bag.png" alt="bag" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="Navigation">
+      <div class="limit">
+        <div class="Navigation_wrapper">
+          <a href="#">Головна</a>
+          <a href="#">Котам</a>
+          <a href="#">Собакам</a>
+          <a href="#">Птахам</a>
+          <a href="#">Гризунам</a>
+          <a href="#">Рибам</a>
+        </div>
+      </div>
+    </nav>
+    <div class="Banner">
+      <div class="limit">
+        <div class="Banner_wrapper">
+          <img src="img/banner.png" alt="banner" class="Banner_wrapper_img" />
+          <div class="Banner_wrapper_info">
+            <span>Новинка!</span>
+            <span>Необхідні товаари для вас та вашого улюбленця.</span>
+            <button>Дізнатись більше →</button>
+          </div>
+          <div class="Banner_wrapper_circles">
+            <span class="Banner_wrapper_circles_circle filled"></span>
+            <span class="Banner_wrapper_circles_circle outlined"></span>
+            <span class="Banner_wrapper_circles_circle outlined"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="New">
+      <div class="limit">
+        <span class="New_header">Новинки</span>
+        <div class="New_wrapper">
+          <div class="New_wrapper_item">
+            <img src="img/food/2.png" alt="food" />
+            <span>Корм Royal Canin</span>
+            <span>
+              вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+            </span>
+            <div class="New_wrapper_item_price">
+              <button>Купити</button>
+              <span>550 грн</span>
+            </div>
+          </div>
+          <div class="New_wrapper_item">
+            <img src="img/food/2.png" alt="food" />
+            <span>Корм Royal Canin</span>
+            <span>
+              вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+            </span>
+            <div class="New_wrapper_item_price">
+              <button>Купити</button>
+              <span>550 грн</span>
+            </div>
+          </div>
+          <div class="New_wrapper_item">
+            <img src="img/food/2.png" alt="food" />
+            <span>Корм Royal Canin</span>
+            <span>
+              вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+            </span>
+            <div class="New_wrapper_item_price">
+              <button>Купити</button>
+              <span>550 грн</span>
+            </div>
+          </div>
+          <div class="New_wrapper_item">
+            <img src="img/food/2.png" alt="food" />
+            <span>Корм Royal Canin</span>
+            <span>
+              вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+            </span>
+            <div class="New_wrapper_item_price">
+              <button>Купити</button>
+              <span>550 грн</span>
+            </div>
+          </div>
+        </div>
+        <div class="New_more">
+          <button>Показати ще <span>↓</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="Sales">
+      <div class="limit">
+        <span class="Sales_header">Хіти продажу</span>
+        <div class="Sales_wrapper">
+          <div class="Sales_wrapper_item">
+            <span class="Sales_wrapper_item_new">Новинка</span>
+            <div class="Sales_wrapper_item_content">
+              <img src="img/food/1.png" alt="food" />
+              <span class="Sales_wrapper_item_name">Корм Royal Canin</span>
+              <span class="Sales_wrapper_item_subscr"
+                >вологий корм у соусі для кошенят на кожен день (до 12
+                місяців)</span
+              >
+              <div class="Sales_wrapper_item_price">
+                <button>Купити</button>
+                <div class="Sales_wrapper_item_price_new">
+                  <span>700 грн</span>
+                  <span>550 грн</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Sales_wrapper_item">
+            <div class="Sales_wrapper_item_content">
+              <img src="img/food/2.png" alt="food" />
+              <span class="Sales_wrapper_item_name">Корм Royal Canin</span>
+              <span class="Sales_wrapper_item_subscr"
+                >вологий корм у соусі для кошенят на кожен день (до 12
+                місяців)</span
+              >
+              <div class="Sales_wrapper_item_price">
+                <button>Купити</button>
+                <span>550 грн</span>
+              </div>
+            </div>
+          </div>
+          <div class="Sales_wrapper_item">
+            <div class="Sales_wrapper_item_content">
+              <img src="img/food/3.png" alt="food" />
+              <span class="Sales_wrapper_item_name">Корм Royal Canin</span>
+              <span class="Sales_wrapper_item_subscr"
+                >вологий корм у соусі для кошенят на кожен день (до 12
+                місяців)</span
+              >
+              <div class="Sales_wrapper_item_price">
+                <button>Купити</button>
+                <span>550 грн</span>
+              </div>
+            </div>
+          </div>
+          <div class="Sales_wrapper_item">
+            <div class="Sales_wrapper_item_content">
+              <img src="img/food/4.png" alt="food" />
+              <span class="Sales_wrapper_item_name">Корм Royal Canin</span>
+              <span class="Sales_wrapper_item_subscr"
+                >вологий корм у соусі для кошенят на кожен день (до 12
+                місяців)</span
+              >
+              <div class="Sales_wrapper_item_price">
+                <button class="hovered">Купити</button>
+                <div class="Sales_wrapper_item_price_new">
+                  <span>700 грн</span>
+                  <span>550 грн</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Sales_more">
+          <button>Показати ще <span>↓</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="Phone">
+      <div class="limit">
+        <div class="Phone_bg">
+          <div class="Phone_bg_info">
+            <div class="Phone_bg_info_imgs">
+              <img
+                src="img/circle.png"
+                alt="circle"
+                class="Phone_bg_info_imgs_circle"
+              />
+              <img
+                src="img/phone.png"
+                alt="phone"
+                class="Phone_bg_info_imgs_phones"
+              />
+            </div>
+            <div class="Phone_bg_info_app">
+              <span>Завантажити наш мобільній додаток</span>
+              <span
+                >Використовуйте усі можливості сучасних технологій. Сервіс
+                доступний 24/7.</span
+              >
+              <div class="Phone_bg_info_app_download">
+                <a href="#">
+                  <img src="icons/appStore.png" alt="appStore" />
+                </a>
+                <a href="#">
+                  <img src="icons/googlePlay.png" alt="googlePlay" />
+                </a>
+              </div>
+            </div>
+            <div class="Phone_bg_info_section">
+              <img
+                src="img/circle.png"
+                alt="circle"
+                class="Phone_bg_info_section_circle"
+              />
+              <img
+                src="img/phone.png"
+                alt="phone"
+                class="Phone_bg_info_section_phones"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Categories">
+      <div class="limit">
+        <span class="Categories_header">Популярні категорії</span>
+        <div class="Categories_item">
+          <a href="#" class="Categories_item_green">
+            <span>Іграшки для котів</span>
+            <img src="icons/categories/green/green1.png" alt="icon" />
+            <img src="icons/categories/green/green2.png" alt="icon" />
+            <img src="icons/categories/green/green3.png" alt="icon" />
+            <img src="icons/categories/green/green4.png" alt="icon" />
+            <img src="icons/categories/btn.png" alt="button" />
+            <img src="img/pets/cat.png" alt="cat" />
+          </a>
+          <a href="#" class="Categories_item_pink">
+            <span
+              >Одяг<br />
+              для котів</span
+            >
+            <img src="icons/categories/pink/pink1.png" alt="icon" />
+            <img src="icons/categories/pink/pink2.png" alt="icon" />
+            <img src="icons/categories/pink/pink3.png" alt="icon" />
+            <img src="icons/categories/btn.png" alt="button" />
+            <img src="img/pets/cat2.png" alt="cat" />
+          </a>
+          <a href="#" class="Categories_item_blue">
+            <span
+              >Корм<br />
+              для птахів</span
+            >
+            <img src="icons/categories/blue/blue1.png" alt="icon" />
+            <img src="icons/categories/blue/blue2.png" alt="icon" />
+            <img src="icons/categories/blue/blue3.png" alt="icon" />
+            <img src="icons/categories/btn.png" alt="button" />
+            <img src="img/pets/parrot.png" alt="parrot" />
+          </a>
+          <a href="#" class="Categories_item_orange">
+            <span
+              >Корм <br />
+              для рибок</span
+            >
+            <img src="icons/categories/orange/orange1.png" alt="icon" />
+            <img src="icons/categories/orange/orange2.png" alt="icon" />
+            <img src="icons/categories/btn.png" alt="button" />
+            <img src="img/pets/fish.png" alt="fish" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="Brands">
+      <div class="limit">
+        <span class="Brands_header">Наші бренди</span>
+        <div class="Brands_wrapper">
+          <img src="img/brands/royal.png" alt="royal canin" />
+          <img src="img/brands/purina.png" alt="purina" />
+          <img src="img/brands/acana.png" alt="acana" />
+          <img src="img/brands/hills.png" alt="hills" />
+        </div>
+        <div class="Brands_circles">
+          <span class="Brands_circles_circle filled"></span>
+          <span class="Brands_circles_circle outlined"></span>
+          <span class="Brands_circles_circle outlined"></span>
+        </div>
+        <div class="Brands_arrows">
+          <img
+            src="icons/arrowLeft.png"
+            alt="arrow left"
+            class="Brands_arrows_left"
+          />
+          <img
+            src="icons/arrowRight.png"
+            alt="arrow right"
+            class="Brands_arrows_right"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="Subscribe">
+      <div class="limit">
+        <div class="Subscribe_content">
+          <span>Підпишись на наші новини</span>
+          <div class="Subscribe_content_input">
+            <input type="email" placeholder="Ваша пошта" />
+            <button>Підписатись</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="Footer">
+      <div class="limit">
+        <div class="Footer_header">
+          <span class="Footer_header_logo">LOGO </span>
+          <div class="Footer_header_links">
+            <div class="Footer_header_links_cards">
+              <a href="#"><img src="icons/visa.png" alt="visa" /></a>
+              <a href="#"
+                ><img src="icons/mastercard.png" alt="mastercard"
+              /></a>
+            </div>
+            <div>
+              <a href="#"><img src="icons/linkedin.png" alt="linkedin" /></a>
+              <a href="#"><img src="icons/facebook.png" alt="facebook" /></a>
+              <a href="#"><img src="icons/instagram.png" alt="instagram" /></a>
+              <a href="#"><img src="icons/twitter.png" alt="twitter" /></a>
+              <a href="#"><img src="icons/youtube.png" alt="youtube" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="Footer_wrapper">
+          <div class="Footer_wrapper_item">
+            <span>Категорії</span>
+            <a href="#">Котам</a>
+            <a href="#">Собакам</a>
+            <a href="#">Птахам</a>
+            <a href="#">Гризунам</a>
+            <a href="#">Рибам</a>
+          </div>
+          <div class="Footer_wrapper_item">
+            <span>Клієнтам</span>
+            <a href="#">Доставка </a>
+            <a href="#">Повернення і обмін</a>
+            <a href="#">Програма лояльності</a>
+            <a href="#">Наші магазини</a>
+            <a href="#">Про компанію</a>
+          </div>
+          <div class="Footer_wrapper_item">
+            <span>Корисне</span>
+            <a href="#">Договір оферти </a>
+            <a href="#">Мапа сайту</a>
+            <a href="#">Відгуки</a>
+            <a href="#">Контакти</a>
+            <a href="#">Бренди</a>
+          </div>
+          <div class="Footer_wrapper_contacts">
+            <span>Контакти</span>
+            <a href="tel:0800333133">0800 333 133</a>
+            <span>Безкоштовно по Україні</span>
+            <span>Графік роботи call-центру:</span>
+            <span>Пн.-Пт. 09:00-20:00</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
